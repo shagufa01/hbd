@@ -56,33 +56,28 @@ p {
 }
 
 
-@media only screen and (max-width: 740px){
+@media only screen and (min-width: 740px){
+  .content {
+    background-image: url(Walls.jpg);
+   margin-left: 50px;
+   margin-top: 250px;
+   background-size: contain;
+   background-repeat: repeat;
+  }
+ body {
+    position: relative;
+ }
+  button {
+   width: 80%;
+   position: absolute;
+   left: 10px;
+   top:200px;
+    font-size: 40px;
+  }
 
-    .content {
-        width: 70%;
-        margin-left: 50px;
-        margin-top: 250px;
-    } 
-
-    button {
-        width: 60%;
-        height: 8vh;
-        margin-top: 50px;
-    }
-
-    button:hover {
-        font-size: medium;
-        font-weight: bolder;
-     
-        }
-
-    body {
-        background-image: url(Walls.jpg);
-       
-    }
-
-    p {
-        padding-top: 50px;
-        font-size: 20px;
-    }
+  p {
+    padding: 50px;
+    font-size: 45px;
+  }
+  
 }

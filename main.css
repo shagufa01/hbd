@@ -80,4 +80,31 @@ p {
     font-size: 45px;
   }
   
+
+}
+
+@media only screen and (max-width: 851px) {
+   
+    .content {
+        background-image: url(Walls.jpg);
+       margin-left: 20px;
+       margin-top: 250px;
+       background-size: contain;
+       background-repeat: repeat;
+      }
+     body {
+        position: relative;
+     }
+      button {
+       width: 80%;
+       position: absolute;
+       right: 30px;
+       top:50px;
+        font-size: 30px;
+      }
+    
+      p {
+        padding: 50px;
+        font-size: 20px;
+      }
 }
